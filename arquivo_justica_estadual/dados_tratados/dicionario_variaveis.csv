@@ -1,0 +1,64 @@
+﻿variavel;sigla_cnj;grupo;unidade;descricao
+ano;ano;identificação;ano-base;Ano
+justica;justica;identificação;ramo da Justiça;Ramo de Justiça
+sigla;sigla;identificação;sigla do tribunal;Sigla do Tribunal
+tribunal;dsc_tribunal;identificação;nome do tribunal;Descrição do Tribunal
+uf_sede;uf_sede;identificação;UF;UF sede
+porte;porte;identificação;Grande/Médio/Pequeno (classificação do CNJ);Porte do Tribunal
+casos_novos;cn;fluxo;processos;Cn - Casos Novos (total do tribunal)
+casos_pendentes;cp;fluxo;processos em 31/12;Cp – Casos Pendentes
+suspensos;sus;fluxo;processos suspensos, sobrestados ou em arquivo provisório;Sus - Processos Suspensos ou Sobrestados ou em Arquivo Provisório
+baixados;tbaix;fluxo;processos;TBaix – Total de Processos Baixados
+sentencas;sent;fluxo;sentenças e decisões;Sent - Total de Sentenças / Decisões
+casos_novos_exec_fiscal_1g;cnextfisc1;fluxo;processos;CnExtFisc1º – Casos Novos de Execução Fiscal no 1º grau
+pendentes_exec_fiscal_1g;cpextfisc1;fluxo;processos em 31/12;CpExtFisc1º – Casos Pendentes de Execução Fiscal no 1º grau
+baixados_exec_fiscal_1g;tbaixextfisc1;fluxo;processos;TBaixExtFisc1º – Total de Processos Baixados de Execução Fiscal no 1º Grau
+tc;tc;congestionamento;%;TC - Taxa de Congestionamento
+tc_liquida;tcl;congestionamento;%;TCL – Taxa de Congestionamento Líquida
+tc_1grau;tc1;congestionamento;%;TC1 - Taxa de Congestionamento no 1º Grau
+tc_2grau;tc2;congestionamento;%;TC2º - Taxa de Congestionamento no 2º Grau
+tc_juizados;tcje;congestionamento;%;TCJE - Taxa de Congestionamento nos Juizados Especiais
+tc_conhecimento_1g;tcc1;congestionamento;%;TCC1º - Taxa de Congestionamento na Fase de Conhecimento do 1º Grau
+tc_execucao_1g;tcex1;congestionamento;%;TCEx1º - Taxa de Congestionamento na Fase de Execução do 1º Grau
+tc_exec_fiscal_1g;tcextfisc1;congestionamento;%;TcExtFisc1º - Taxa de Congestionamento na Execução Fiscal do 1º Grau
+tempo_baixa;tpbaixm;tempo;dias (média);TpBaix - Média
+tempo_pendente;tpcpm;tempo;dias (média);TpCp - Média
+tempo_sentenca_1g;tpsent1m;tempo;dias (média);TpSent1 - Média
+tempo_sentenca_conhec_1g;tpsentc1m;tempo;dias (média);TpSentC1 - Média
+tempo_sentenca_exec_1g;tpsentex1m;tempo;dias (média);TpSentEx1 - Média
+casos_novos_conhec_1g;cnc1;fluxo;processos;CnC1º – Casos Novos de Conhecimento no 1º Grau
+pendentes_conhec_1g;cpc1;fluxo;processos em 31/12;CpC1º – Casos Pendentes de Conhecimento no 1º Grau
+suspensos_conhec_1g;susc1;fluxo;processos suspensos, sobrestados ou em arquivo provisório;SuSC1º – Processos de Conhecimento Suspensos ou Sobrestados ou em Arquivo Provisório no 1º Grau
+baixados_conhec_1g;tbaixc1;fluxo;processos;TBaixC1º – Processos de Conhecimento Baixados no 1º Grau
+sentencas_conhec_1g;sentc1;fluxo;sentenças (inclui as que homologam acordo);SentC1º – Sentenças de Conhecimento no 1º grau
+acordos_homologados_conhec_1g;senthc1;fluxo;sentenças homologatórias de acordo;SentHC1º – Sentenças de Conhecimento Homologatórias de Acordos no 1º Grau
+n_proc_tempo_sentenca_conhec_1g;tpsentc1p;fluxo;processos que entram na média de tempo até a sentença;TpSentC1- Número de Processos
+tc_liquida_conhec_1g;tclc1;congestionamento;%;TCLC1º – Taxa de Congestionamento Líquida na Fase de Conhecimento do 1º Grau
+tempo_pendente_conhec_1g;tpcpc1m;tempo;dias (média);TpCpC1 - Média
+tempo_baixa_conhec_1g;tpbaixc1m;tempo;dias (média);TpBaixC1 - Média
+indice_conciliacao_conhec_1g;icc1;produtividade;% (acordos homologados / sentenças);ICC1º – Índice de Conciliação na Fase de Conhecimento do 1º grau
+magistrados_1g;mag1;recursos;cargos de magistrado no 1º grau;Mag1º - Número de Cargos de Magistrado no 1º Grau
+servidores_por_mag_1g;sajudmag1;recursos;servidores da área judiciária por magistrado, 1º grau;SajudMag1 - Servidores da área Judiciária por Magistrado no 1° Grau.
+carga_trabalho_conhec_1g;kc1;demanda;processos por magistrado (contém o estoque);KC1º - Carga de Trabalho dos Magistrados na Fase de Conhecimento do 1º Grau
+tempo_baixa_2g;tpbaix2m;tempo;dias (média);TpBaix2 - Média
+tempo_pendente_1g;tpcp1m;tempo;dias (média);TpCp1 - Média
+tempo_pendente_2g;tpcp2m;tempo;dias (média);TpCp2 - Média
+tempo_baixa_exec_fiscal_1g;tpbaixextfisc1m;tempo;dias (média);TpBaixExtFisc1 - Média
+magistrados;mag;recursos;magistrados em atuação;Mag - Número de Magistrados Atuantes
+forca_trabalho;ts;recursos;servidores + força de trabalho auxiliar;TS - Total de Servidores e Força de Trabalho Auxiliar
+despesa_total;dpj;recursos;R$;Dpj - Despesa Total da Justiça Estadual
+populacao;h1;recursos;habitantes;h1 - Número de Habitantes
+casos_novos_por_mag;cm;demanda;processos por magistrado;Cm - Casos Novos por Magistrado
+casos_novos_100mil_hab;ch;demanda;processos por 100 mil habitantes;Ch - Casos Novos por 100.000 habitantes
+carga_trabalho_mag;k;demanda;processos por magistrado;K - Carga de Trabalho dos Magistrados
+ipm;ipm;produtividade;baixados por magistrado;IPM - Índice de Produtividade dos Magistrados
+ips;ips;produtividade;baixados por servidor da área judiciária;IPS - Índice de Produtividade dos Servidores
+iad;iad;produtividade;% (baixados / casos novos);IAD - Processos Baixados por Caso Novo
+ipc_jus;eff;produtividade;% (100% = fronteira de eficiência);IPC-Jus
+pct_suspensos;(derivada);derivada;%;100 × suspensos / casos_pendentes
+pct_exec_fiscal;(derivada);derivada;%;100 × pendentes_exec_fiscal_1g / casos_pendentes
+giro_acervo_anos;(derivada);derivada;anos;casos_pendentes / baixados (anos para zerar o acervo no ritmo atual)
+forca_trabalho_por_mag;(derivada);derivada;pessoas por magistrado;forca_trabalho / magistrados
+despesa_por_habitante;(derivada);derivada;R$ por habitante;despesa_total / populacao
+tc_sem_exec_fiscal;(derivada);derivada;%;100 × (pendentes − pendentes EF) / [(pendentes − pendentes EF) + (baixados − baixados EF)]
+obs_limpeza;(derivada);derivada;texto;registro dos valores anulados no passo 12

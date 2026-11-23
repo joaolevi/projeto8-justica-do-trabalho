@@ -1,0 +1,23 @@
+﻿coluna;origem;o que é
+ano;CNJ (ano);ano-base
+sigla;CNJ (sigla);sigla do tribunal
+uf;CNJ (uf_sede);estado da sede do TRT
+porte;CNJ (porte);porte do TRT segundo o CNJ (Grande, Médio ou Pequeno)
+casos_novos;CNJ (cnc1);processos que entraram no ano
+pendentes;CNJ (cpc1);ESTOQUE: processos sem sentença em 31/12
+suspensos;CNJ (susc1);parte do estoque parada por motivo legal (ex.: à espera de um tribunal superior)
+baixados;CNJ (tbaixc1);processos que saíram da fase de conhecimento no ano
+sentencas;CNJ (sentc1);sentenças no ano (inclui as que homologam acordo)
+acordos;CNJ (senthc1);sentenças que homologam acordo
+n_processos_duracao;CNJ (tpsentc1p);quantos processos entram na média de duração
+dias_ate_sentenca;CNJ (tpsentc1m);DURAÇÃO: média de dias da entrada até a 1ª sentença, para quem foi sentenciado no ano
+dias_idade_estoque;CNJ (tpcpc1m);IDADE DO ESTOQUE: média de dias da entrada até 31/12, para os pendentes
+tc;CNJ (tcc1);taxa de congestionamento (%) = pendentes ÷ (pendentes + baixados)
+indice_conciliacao;CNJ (icc1);% das sentenças que foram acordos
+juizes;CNJ (mag1);cargos de juiz no 1º grau
+servidores_por_juiz;CNJ (sajudmag1);servidores da área judiciária por juiz, no 1º grau
+meses_ate_sentenca;calculada;dias_ate_sentenca ÷ 30,44
+meses_idade_estoque;calculada;dias_idade_estoque ÷ 30,44
+meses_para_zerar_estoque;calculada;12 × pendentes ÷ baixados: meses para zerar o estoque no ritmo de saída de 2025
+casos_novos_por_juiz;calculada;casos_novos ÷ juizes
+pct_suspensos;calculada;100 × suspensos ÷ pendentes

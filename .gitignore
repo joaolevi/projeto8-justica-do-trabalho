@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Coleta incompleta do TRT2 e do TRT5 (fora da amostra; ver README)
+dados/brutos/datajud/trt2_*
+dados/brutos/datajud/trt5_*
