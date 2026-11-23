@@ -29,16 +29,22 @@ Tudo está no notebook [`projeto8_tramitacao_congestionamento.ipynb`](projeto8_t
 
 O **TRT2 (Grande SP)** e o **TRT5 (BA)** ficaram fora da amostra. A API do CNJ não conseguiu entregar a amostra deles: estourava o tempo até em consultas pequenas. Os dados oficiais cobrem os 24 TRTs.
 
+## Ética e privacidade
+Só usamos dados públicos do CNJ. A API pública não traz nomes das partes, e todos os processos da amostra são públicos (nível de sigilo 0). Na base tratada, o número do processo foi trocado por um código (hash). Detalhes na seção 9 do notebook.
+
 ## Estrutura
 
 ```
 projeto8_tramitacao_congestionamento.ipynb   notebook principal (já executado)
-figuras/                                     as 4 figuras do notebook
+figuras/                                     as 6 figuras (4 de análise + 2 do exercício de gráfico enganoso)
 dados/brutos/                                dados como vieram das fontes
     jn2026_base_17-set-2026.zip              base do Justiça em Números (o notebook lê direto do zip)
     tpu_assuntos.json                        árvore de assuntos (TPU)
     datajud/                                 cache da amostra baixada da API (.json.gz)
-dados/tratados/                              tabelas limpas geradas pelo notebook (CSV ";" e vírgula decimal)
+dados/tratados/                              bases tratadas geradas pelo notebook (CSV ";" e vírgula decimal)
+    jn_trt_2025.csv + dicionario_jn_trt.csv            indicadores oficiais dos 24 TRTs e o dicionário
+    datajud_trt_amostra_2025.csv + dicionario_datajud_amostra.csv   amostra de processos e o dicionário
+    relatorio_alteracoes.md                  o que foi alterado em cada base, passo a passo
 arquivo_justica_estadual/                    primeira versão do projeto (Justiça Estadual), só para consulta
 ```
 

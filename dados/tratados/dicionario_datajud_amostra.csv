@@ -1,0 +1,28 @@
+﻿coluna;o que é
+codigo_processo;código do processo (pseudônimo: hash do número do processo, que não identifica ninguém)
+trt;tribunal (TRT1 a TRT24)
+classe;código da classe na TPU: 985 = Ordinário, 1125 = Sumaríssimo, 1126 = Sumário (alçada)
+cod_sentenca;código na TPU do movimento da 1ª sentença ou acordo
+vara;código da vara (órgão julgador) no CNJ, precedido do TRT
+vara_nome;nome da vara
+assuntos;códigos dos assuntos do processo na TPU, separados por |
+juizo_100_digital;tem o movimento 14736 (Juízo 100% Digital)? NÃO usado na análise (seção 3.1)
+data_entrada;data de ajuizamento (entrada do processo)
+data_sentenca;data da 1ª sentença ou acordo
+dias;duração em dias = data_sentenca − data_entrada
+rito;Ordinário, Sumaríssimo ou Sumário (alçada)
+encerramento;acordo, julgamento do mérito ou extinção sem mérito
+n_assuntos;quantidade de assuntos
+faixa_assuntos;faixa da quantidade de assuntos (até 3, 4 a 6, 7 a 10, 11 ou mais)
+tema: Rescisão do Contrato de Trabalho;"o processo tem algum assunto do tema ""Rescisão do Contrato de Trabalho""? (verdadeiro/falso)"
+tema: Verbas Remuneratórias, Indenizatórias e Benefícios;"o processo tem algum assunto do tema ""Verbas Remuneratórias, Indenizatórias e Benefícios""? (verdadeiro/falso)"
+tema: Contrato Individual de Trabalho;"o processo tem algum assunto do tema ""Contrato Individual de Trabalho""? (verdadeiro/falso)"
+tema: Responsabilidade Civil do Empregador;"o processo tem algum assunto do tema ""Responsabilidade Civil do Empregador""? (verdadeiro/falso)"
+tema: Direito processual;"o processo tem algum assunto do tema ""Direito processual""? (verdadeiro/falso)"
+tema: Duração do Trabalho;"o processo tem algum assunto do tema ""Duração do Trabalho""? (verdadeiro/falso)"
+tema: Outros ramos do direito;"o processo tem algum assunto do tema ""Outros ramos do direito""? (verdadeiro/falso)"
+tema: Férias;"o processo tem algum assunto do tema ""Férias""? (verdadeiro/falso)"
+tema: Direito Coletivo do Trabalho;"o processo tem algum assunto do tema ""Direito Coletivo do Trabalho""? (verdadeiro/falso)"
+tema: Responsabilidade Solidária / Subsidiária;"o processo tem algum assunto do tema ""Responsabilidade Solidária / Subsidiária""? (verdadeiro/falso)"
+tema: Categoria Profissional Especial;"o processo tem algum assunto do tema ""Categoria Profissional Especial""? (verdadeiro/falso)"
+peso;peso do processo nas contas gerais = sentenças do TRT em 2025 (CNJ) ÷ processos dele na amostra
