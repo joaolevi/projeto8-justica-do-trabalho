@@ -9,7 +9,7 @@ Projeto da disciplina **Introdução à Ciência de Dados (UFAL)**.
 - **Estoque:** pendente em 31/12/2025.
 - **Destaque:** o TRT19 (Alagoas).
 
-Tudo está no notebook [`projeto8_tramitacao_congestionamento.ipynb`](projeto8_tramitacao_congestionamento.ipynb): extração, limpeza com a justificativa de cada decisão, análise, respostas e uma sugestão de modelo de *machine learning*. Ele foi escrito para quem não é da área.
+Tudo está no notebook [`projeto8_tramitacao_congestionamento.ipynb`](projeto8_tramitacao_congestionamento.ipynb): extração, limpeza com a justificativa de cada decisão, análise, respostas e uma sugestão de modelo de *machine learning*.
 
 ## Perguntas e respostas curtas
 
