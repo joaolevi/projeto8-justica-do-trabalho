@@ -1,5 +1,7 @@
 # Projeto 8: Tempo de tramitação e congestionamento na Justiça do Trabalho
 
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaolevi/projeto8-justica-do-trabalho/blob/main/projeto8_tramitacao_congestionamento.ipynb)
+
 Projeto da disciplina **Introdução à Ciência de Dados (UFAL)**.
 
 **Recorte:** Justiça do Trabalho, 1º grau, fase de conhecimento, 24 Tribunais Regionais do Trabalho (TRTs).
@@ -41,6 +43,10 @@ arquivo_justica_estadual/                    primeira versão do projeto (Justi�
 ```
 
 ## Como rodar
+
+**No Google Colab (sem instalar nada):** clique no botão "Abrir no Colab" acima e use *Ambiente de execução → Executar tudo*. A primeira célula de código baixa os dados deste repositório sozinha.
+
+**No computador:**
 
 ```bash
 pip install -r requirements.txt
